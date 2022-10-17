@@ -88,7 +88,7 @@
             <form>
                 <div class="card p-3">
 
-                    <div class="card-body bg_gradient p-3">
+                    <div class="card-body bg_gradient p-3 radius_4">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio1" value="Withdrawal">
                             <label class="form-check-label form-check-label2" for="inlineRadio1">Withdrawal</label>
@@ -107,7 +107,7 @@
                         </div>
 
                     </div>
-                    <div class="card-body bg_gradient p-3 mt-3">
+                    <div class="card-body bg_gradient p-3 mt-3 radius_4">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio5" value="Mantra">
                             <label class="form-check-label form-check-label2" for="inlineRadio5">Mantra</label>
@@ -122,7 +122,7 @@
                         </div>
 
                     </div>
-                    <div class="row">
+                    <div class="row mt-3">
                         <div class="col-md-12">
                             <div class="form-group">
                                 <select class="form-select mb-3 shadow-none">
@@ -154,9 +154,13 @@
                         <div class="col-md-6">
                             <div class="form-group">
                             <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" name="pluspay" id="inlineRadio8" value="Mantra">
-                            <label class="form-check-label form-check-label2" for="inlineRadio8">Agree T&C of ICICI Bank Limited</label>
-                        </div>
+                                <input class="form-check-input" type="checkbox" name="pluspay" id="inlineRadio8" value="Mantra">
+                                <label class="form-check-label" for="inlineRadio8">Agree T&C of ICICI Bank Limited</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                            <button type="button" class="btn bg_gradient">Scan</button>
+                            <button type="button" class="btn bg_gradient">Submit Transaction</button>
+                            </div>
                             </div>
                         </div>
                     </div>

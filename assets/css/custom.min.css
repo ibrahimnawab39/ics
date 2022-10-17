@@ -20,3 +20,6 @@
 .bg_gradient{
     background: linear-gradient(to right, #0e3997 , #2570e1);
 }
+.radius_4{
+    border-radius: 4px;
+}
