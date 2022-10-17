@@ -167,11 +167,7 @@
                 </div>
             </form>
         </div>
-
-    </div>
-
-
-    <div class="col-sm-12 col-lg-6">
+        <div class="col-sm-12 col-lg-5">
         <div class="card">
             <div class="card-header d-flex justify-content-between">
                 <div class="header-title">
@@ -179,12 +175,15 @@
                 </div>
             </div>
             <div class="card-body">
-                <form>
-                    hello
-                </form>
+                
             </div>
         </div>
     </div>
+
+    </div>
+
+
+
 </div>
 </div>
 </div>
