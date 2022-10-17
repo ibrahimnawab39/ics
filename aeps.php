@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="card card_style" style="width: 20%;">
-            <div class="align-items-center card-body p-0 card_body_style" >
+            <div class="align-items-center card-body p-0 card3_body_style" >
                 <h6 class="card-title card3_heading1">MTB1<i class="fa fa-university card3_icon1" aria-hidden="true"></i>
                 </h6>
                 <h6 class="card-title card3_heading2">MTB1<i class="fa fa-university card3_icon2" aria-hidden="true"></i>
@@ -66,7 +66,7 @@
             </div>
         </div>
         <div class="card card_style" style="width: 12%;">
-            <div class="align-items-center card-body p-0 card_body_style" >
+            <div class="align-items-center card-body p-0 card5_body_style" >
                 <h6 class="card-title card5_heading"><i class="fa fa-home card5_icon" aria-hidden="true"></i>
                 </h6>
                 <div class="p-1 text-center card5_footer">Home</div>
