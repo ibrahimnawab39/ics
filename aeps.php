@@ -75,7 +75,7 @@
     </div>
 </div>
 <div class="conatiner-fluid content-inner mt-n5 py-0">
-    <div>
+
         <div class="row">
             <div class="card">
                 <div class="card-header">
@@ -111,111 +111,9 @@
                 </form>
             </div>
 
-            <!-- <div class="card">
-                    <div class="card-header d-flex justify-content-between">
-                        <div class="header-title">
-                            <h4 class="card-title">AEPS - PlusPay Digital India</h4>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        
-                            <table class="table">
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                        </td>
-                                        <td><input type="radio" name="radios" class="form-check-input" id="exampleRadio2">
-                                            <label class="form-check-label" for="exampleRadio1">BALANCE ENQUIRY</label>
-                                        </td>
-                                        <td><input type="radio" name="radios" class="form-check-input" id="exampleRadio3">
-                                            <label class="form-check-label" for="exampleRadio1">MINI STATEMENT</label>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <!-- <div class="bd-example">
-                            <div class="form-check form-check-inline">
-                                <input type="radio" class="form-check-input" name="bsradio" id="radio1"
-                                    checked="">
-                                <label for="radio1" class="form-check-label pl-2">Mantra</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input type="radio" class="form-check-input" name="bsradio" id="radio2">
-                                <label for="radio2" class="form-check-label pl-2">Morpho</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input type="radio" class="form-check-input" name="bsradio" id="radio3"
-                                    checked="">
-                                <label for="radio1" class="form-check-label pl-2">Startek</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input type="radio" class="form-check-input" name="bsradio" id="radio4">
-                                <label for="radio2" class="form-check-label pl-2">Secureye</label>
-                            </div>
-                        </div> -->
-            <table class="table">
-                <tbody>
-                    <tr>
-                        <td><input type="radio" name="radios" class="form-check-input" id="exampleRadio1a">
-                            <label class="form-check-label" for="exampleRadio1">Mantra</label>
-                        </td>
-                        <td><input type="radio" name="radios" class="form-check-input" id="exampleRadio1b">
-                            <label class="form-check-label" for="exampleRadio1">Morpho</label>
-                        </td>
-                        <td><input type="radio" name="radios" class="form-check-input" id="exampleRadio1c">
-                            <label class="form-check-label" for="exampleRadio1">Startek</label>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="form-group">
-                <label class="form-label" for="pwd">Bank Name:</label>
-                <select class="form-select mb-3 shadow-none">
-                    <option selected="">Select Your Operator</option>
-                    <option value="1">ICICI</option>
-                    <option value="2">PAYTM</option>
-                    <option value="3">AXIS</option>
-                </select>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label class="form-label">Aadhar No:</label>
-                        <input type="email" class="form-control" name="email" placeholder="Aadhar No" />
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label class="form-label">Mobile No:</label>
-                        <input type="text" class="form-control" name="uname" placeholder="Mobile No" />
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label class="form-label" for="pwd">Amount:</label>
-                        <input type="text" class="form-control" id="pwd">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="form-group checkbox">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
-                            <label class="form-check-label" for="flexCheckDefault3">
-                                Agree T&C of
-                            </label>
-                            ICICI Bank Limited
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Scan</button>
-            <button type="submit" class="btn btn-danger">Submit Transaction</button>
-            </form>
         </div>
-    </div>
-    -->
+
+
     <div class="col-sm-12 col-lg-6">
         <div class="card">
             <div class="card-header d-flex justify-content-between">
