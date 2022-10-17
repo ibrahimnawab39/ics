@@ -34,20 +34,48 @@
 <!--Nav End-->
 <!-- </div>-->
 <div class="conatiner-fluid content-inner mt-n5 py-0">
-    <div class="row">
-        <div class="card" style="width: 25%;">
-            <div class="align-items-center card-body d-flex p-0 pb-3 pt-3" style="width: 8rem;">
+    <div class="row" style="background: white;box-shadow: 0 10px 30px 0 rgb(17 38 146 / 5%);border-radius: 10px;">
+        <div class="card" style="width: 25%;background: none;">
+            <div class="align-items-center card-body d-flex p-0" style="width: 8rem;">
                 <img src="https://www.w3schools.com/howto/img_avatar.png" style="width: 50px;height: 50px;border-radius:50%;">
                 <h5 class="card-title" style="padding-left: 6px;padding-top: 11px;">Rahul</h5>
             </div>
         </div>
-        <div class="card" style="width: 50%;">
-            <div class="align-items-center card-body p-0 pb-3 pt-3" style="width: 8rem;">
-                <h6 class="card-title" style="padding-left: 6px;padding-top: 11px;">Balance</h6>
-                <i class="fa fa-inr" aria-hidden="true"></i>
-                <div class="card-footer p-0">
-                    Card footer
-                </div>
+        <div class="card card_style" style="width: 18%;">
+            <div class="align-items-center card-body p-0" style="width: 8rem;">
+                <h6 class="card-title" style="padding-left: 6px;align-items: center;display: flex;font-size: 15px;">Balance
+                    <i class="fa fa-inr" aria-hidden="true" style="padding-left: 25px;font-size: 28px;"></i>
+                </h6>
+
+                <div class="p-0" style="font-size: 13px;background-image: linear-gradient(to right, #0e3997 , #2570e1);color: white;width: 100%;">Wallet Statement</div>
+            </div>
+        </div>
+        <div class="card card_style" style="width: 18%;">
+            <div class="align-items-center card-body p-0" style="width: 8rem;">
+                <h6 class="card-title" style="padding-left: 6px;align-items: center;display: flex;font-size: 15px;">Balance
+                    <i class="fa fa-inr" aria-hidden="true" style="padding-left: 25px;font-size: 28px;"></i>
+                </h6>
+
+                <div class="p-0" style="font-size: 13px;background-image: linear-gradient(to right, #0e3997 , #2570e1);color: white;width: 100%;">Wallet Statement</div>
+            </div>
+        </div>
+
+        <div class="card card_style" style="width: 18%;">
+            <div class="align-items-center card-body p-0" style="width: 8rem;">
+                <h6 class="card-title" style="padding-left: 6px;align-items: center;display: flex;font-size: 15px;">Balance
+                    <i class="fa fa-inr" aria-hidden="true" style="padding-left: 25px;font-size: 28px;"></i>
+                </h6>
+
+                <div class="p-0" style="font-size: 13px;background-image: linear-gradient(to right, #0e3997 , #2570e1);color: white;width: 100%;">Wallet Statement</div>
+            </div>
+        </div>
+        <div class="card card_style" style="width: 18%;">
+            <div class="align-items-center card-body p-0" style="width: 8rem;">
+                <h6 class="card-title" style="padding-left: 6px;align-items: center;display: flex;font-size: 15px;">Balance
+                    <i class="fa fa-inr" aria-hidden="true" style="padding-left: 25px;font-size: 28px;"></i>
+                </h6>
+
+                <div class="p-0" style="font-size: 13px;background-image: linear-gradient(to right, #0e3997 , #2570e1);color: white;width: 100%;">Wallet Statement</div>
             </div>
         </div>
     </div>

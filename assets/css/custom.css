@@ -568,3 +568,7 @@ body.uikit .btn-download {
 .top-1 {
   top: 1rem;
 }
+.card_style{
+  background: none;
+  box-shadow: none;
+}
