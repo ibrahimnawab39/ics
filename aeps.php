@@ -103,7 +103,7 @@
                         </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio4" value="Mini Statement">
-                            <label class="form-check-label form-check-label2" for="inlineRadio4">Mini Statement</label>
+                            <label class="form-check-label form-check-label2" for="inlineRadio4">Aadhar Pay</label>
                         </div>
 
                     </div>

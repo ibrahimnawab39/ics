@@ -139,3 +139,15 @@
 .btn_style2{
     font-size: 12px;color: white;margin-left: 4px;
 }
+@media screen and (max-width: 768px) {
+    .card5_heading {
+        padding-left: 0px;
+        justify-content: center;
+    }
+    .card5_body_style{
+        width: 9rem;
+    }
+    .card_style{
+        width: 50% !important;
+    }
+  }
