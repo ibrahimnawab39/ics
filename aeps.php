@@ -155,11 +155,11 @@
                             <div class="form-group">
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="checkbox" name="pluspay" id="inlineRadio8" value="Mantra">
-                                <label class="form-check-label" for="inlineRadio8">Agree T&C of ICICI Bank Limited</label>
+                                <label class="form-check-label" for="inlineRadio8" style="font-size: 13px;">Agree T&C of ICICI Bank Limited</label>
                             </div>
-                            <div class="form-check form-check-inline">
-                            <button type="button" class="btn bg_gradient">Scan</button>
-                            <button type="button" class="btn bg_gradient">Submit Transaction</button>
+                            <div class="d-flex form-check form-check-inline" style="padding-left: 0;">
+                            <button type="button" class="btn bg_gradient" style="font-size: 12px;color: white;">Scan</button>
+                            <button type="button" class="bg_gradient btn" style="font-size: 12px;color: white;margin-left: 4px;">Submit Transaction</button>
                             </div>
                             </div>
                         </div>
