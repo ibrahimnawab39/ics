@@ -571,4 +571,6 @@ body.uikit .btn-download {
 .card_style{
   background: none;
   box-shadow: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }

@@ -34,39 +34,39 @@
 <!--Nav End-->
 <!-- </div>-->
 <div class="conatiner-fluid content-inner mt-n5 py-0">
-    <div class="row" style="background: white;box-shadow: 0 10px 30px 0 rgb(17 38 146 / 5%);border-radius: 10px;">
+    <div class="row" style="background: linear-gradient(to right, #0e3997 , #2570e1);box-shadow: 0 10px 30px 0 rgb(17 38 146 / 5%);border-radius: 10px;">
         <div class="card card_style" style="width: 25%;background: none;">
             <div class="align-items-center card-body d-flex p-0" style="width: 8rem;">
                 <img src="https://www.w3schools.com/howto/img_avatar.png" style="width: 50px;height: 50px;border-radius:50%;">
-                <h5 class="card-title" style="padding-left: 6px;padding-top: 11px;">Rahul</h5>
+                <h5 class="card-title" style="padding-left: 6px;padding-top: 11px;color: white;">Rahul</h5>
             </div>
         </div>
         <div class="card card_style" style="width: 20%;">
-            <div class="align-items-center card-body p-0" style="width: 8rem;">
+            <div class="align-items-center card-body p-0" style="width: 8rem;background: white;border-radius: 0 0px 5px 4px;">
                 <h6 class="card-title" style="padding-left: 6px;align-items: center;display: flex;font-size: 15px;">Balance
                     <i class="fa fa-inr" aria-hidden="true" style="padding-left: 25px;font-size: 28px;color: #2259c1;"></i>
                 </h6>
-                <div class="p-1 text-center" style="font-size: 12px;background-image: linear-gradient(to right, #0e3997 , #2570e1);color: white;width: 100%;border-radius: 0 0px 3px 3px;">Wallet Statement</div>
+                <div class="p-1 text-center" style="font-size: 12px;background-image: linear-gradient(to right, #0e3997 , #2570e1);color: white;width: 100%;border-radius: 0 0px 3px 3px;margin-top: 10px;">Wallet Statement</div>
             </div>
         </div>
         <div class="card card_style" style="width: 20%;">
-            <div class="align-items-center card-body p-0" style="width: 8rem;margin-top: 9px;">
-                <h6 class="card-title" style="padding-left: 0px;align-items: center;display: flex;font-size: 13px;float: left;padding-right: 4px;">MTB1<i class="fa fa-university" aria-hidden="true" style="font-size: 16px;color: #2259c1;padding-left: 6px;"></i>
+            <div class="align-items-center card-body p-0" style="width: 9rem;background: white;border-radius: 0 0px 3px 3px;">
+                <h6 class="card-title" style="padding-left: 7px;align-items: center;display: flex;font-size: 13px;float: left;padding-right: 4px;padding-top: 11px;">MTB1<i class="fa fa-university" aria-hidden="true" style="font-size: 16px;color: #2259c1;padding-left: 6px;"></i>
                 </h6>
-                <h6 class="card-title" style="padding-left: 6px;align-items: center;display: flex;font-size: 13px;border-left: 1px solid lightgray;">MTB1<i class="fa fa-university" aria-hidden="true" style="font-size: 16px;color: #2259c1;padding-left: 6px;"></i>
+                <h6 class="card-title" style="padding-left: 6px;align-items: center;display: flex;font-size: 13px;border-left: 1px solid lightgray;padding-top: 11px;">MTB1<i class="fa fa-university" aria-hidden="true" style="font-size: 16px;color: #2259c1;padding-left: 6px;"></i>
                 </h6>
                 <div class="p-1 text-center" style="font-size: 12px;background-image: linear-gradient(to right, #0e3997 , #2570e1);color: white;width: 100%;border-radius: 0 0px 3px 3px;margin-top: 11px;">Move To Bank</div>
             </div>
         </div>
         <div class="card card_style" style="width: 20%;">
-            <div class="align-items-center card-body p-0" style="width: 8rem;">
-                <h6 class="card-title" style="padding-left: 6px;align-items: center;display: flex;font-size: 15px;">0.00<i class="fa fa-gift" aria-hidden="true" style="padding-left: 25px;font-size: 28px;color: #2259c1;"></i>
+            <div class="align-items-center card-body p-0" style="width: 8rem;background: white;border-radius: 0 0px 3px 3px;">
+                <h6 class="card-title" style="padding-left: 6px;align-items: center;display: flex;font-size: 15px;padding-top: 2px;">0.00<i class="fa fa-gift" aria-hidden="true" style="padding-left: 25px;font-size: 28px;color: #2259c1;"></i>
                 </h6>
-                <div class="p-1 text-center" style="font-size: 13px;background-image: linear-gradient(to right, #0e3997 , #2570e1);color: white;width: 100%;border-radius: 0 0px 3px 3px;">Redeem</div>
+                <div class="p-1 text-center" style="font-size: 12px;background-image: linear-gradient(to right, #0e3997 , #2570e1);color: white;width: 100%;border-radius: 0 0px 3px 3px;">Redeem</div>
             </div>
         </div>
         <div class="card card_style" style="width: 12%;">
-            <div class="align-items-center card-body p-0" style="width: 5rem;">
+            <div class="align-items-center card-body p-0" style="width: 5rem;background: white;border-radius: 0 0px 5px 3px;">
                 <h6 class="card-title" style="padding-left: 25px;align-items: center;display: flex;font-size: 15px;"><i class="fa fa-home" aria-hidden="true" style="/* padding-left: 25px; */font-size: 28px;color: #2259c1;"></i>
                 </h6>
                 <div class="p-1 text-center" style="font-size: 13px;background-image: linear-gradient(to right, #0e3997 , #2570e1);color: white;width: 100%;border-radius: 0 0px 3px 3px;">Home</div>
