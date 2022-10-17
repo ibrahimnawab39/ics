@@ -76,60 +76,95 @@
 </div>
 <div class="conatiner-fluid content-inner mt-n5 py-0">
 
-        <div class="row">
+    <div class="row">
         <div class="card" style="background: #ebebeb;border-radius: unset;border-bottom: 1px solid lightgray;">
-                <div class="card-header" style="padding: 13px 6px;background: #ebebeb;color: black;font-size: 22px;font-weight: 600;">
-                    AEPS - PlusPay Digital India
+            <div class="card-header" style="padding: 13px 6px;background: #ebebeb;color: black;font-size: 22px;font-weight: 600;">
+                AEPS - PlusPay Digital India
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-lg-7">
+            <form>
+                <div class="card p-3">
+
+                    <div class="card-body bg_gradient p-3">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio1" value="Withdrawal">
+                            <label class="form-check-label form-check-label2" for="inlineRadio1">Withdrawal</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio2" value="Balance Enquiry">
+                            <label class="form-check-label form-check-label2" for="inlineRadio2">Balance Enquiry</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio3" value="Mini Statement">
+                            <label class="form-check-label form-check-label2" for="inlineRadio3">Mini Statement</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio4" value="Mini Statement">
+                            <label class="form-check-label form-check-label2" for="inlineRadio4">Mini Statement</label>
+                        </div>
+
+                    </div>
+                    <div class="card-body bg_gradient p-3 mt-3">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio5" value="Mantra">
+                            <label class="form-check-label form-check-label2" for="inlineRadio5">Mantra</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio6" value="Morpho">
+                            <label class="form-check-label form-check-label2" for="inlineRadio6">Morpho</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio7" value="Startek">
+                            <label class="form-check-label form-check-label2" for="inlineRadio7">Startek</label>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <select class="form-select mb-3 shadow-none">
+                                    <option selected="">Select Your Operator</option>
+                                    <option value="1">ICICI</option>
+                                    <option value="2">PAYTM</option>
+                                    <option value="3">AXIS</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="adharno">Adhar No</label>
+                                <input type="text" class="form-control" id="adharno" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" placeholder="12 Digit Adhar No">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="mobile">Mobile No</label>
+                                <input type="text" class="form-control" id="mobile" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" placeholder="Mobile No">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="amount">Amount</label>
+                                <input type="number" class="form-control" id="amount" >
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                            <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="pluspay" id="inlineRadio8" value="Mantra">
+                            <label class="form-check-label form-check-label2" for="inlineRadio8">Agree T&C of ICICI Bank Limited</label>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
-        <div class="row">
-            <div class="col-sm-12 col-lg-7">
-                <form>
-                    <div class="card p-3">
 
-                        <div class="card-body bg_gradient p-3">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio1" value="Withdrawal">
-                                <label class="form-check-label form-check-label2" for="inlineRadio1">Withdrawal</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio2" value="Balance Enquiry">
-                                <label class="form-check-label form-check-label2" for="inlineRadio2">Balance Enquiry</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio3" value="Mini Statement">
-                                <label class="form-check-label form-check-label2" for="inlineRadio3">Mini Statement</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio4" value="Mini Statement">
-                                <label class="form-check-label form-check-label2" for="inlineRadio4">Mini Statement</label>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="card p-3">
-
-                        <div class="card-body bg_gradient p-3">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio5" value="Mantra">
-                                <label class="form-check-label form-check-label2" for="inlineRadio5">Mantra</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio6" value="Morpho">
-                                <label class="form-check-label form-check-label2" for="inlineRadio6">Morpho</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio7" value="Startek">
-                                <label class="form-check-label form-check-label2" for="inlineRadio7">Startek</label>
-                            </div>
-
-                        </div>
-                    </div>
-                </form>
-            </div>
-
-        </div>
+    </div>
 
 
     <div class="col-sm-12 col-lg-6">
