@@ -159,7 +159,8 @@
     .card_style_name{
         width: 100% !important;
     }
-    .card4_heaging{
+    .card4_heaging, .card2_title{
         text-align: center;
+        justify-content: center;
     }
   }
