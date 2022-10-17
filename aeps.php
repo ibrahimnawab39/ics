@@ -35,7 +35,7 @@
 <!-- </div>-->
 <div class="conatiner-fluid content-inner mt-n5 py-0" style="min-height: 112px;">
     <div class="row" style="background: linear-gradient(to right, #0e3997 , #2570e1);box-shadow: 0 10px 30px 0 rgb(17 38 146 / 5%);border-radius: 10px;">
-        <div class="card card_style" style="width: 25%;background: none;">
+        <div class="card card_style_name" style="width: 25%;background: none;">
             <div class="align-items-center card-body d-flex p-0" style="width: 8rem;">
                 <img src="https://www.w3schools.com/howto/img_avatar.png" class="card1_img">
                 <h5 class="card-title card1_title">Rahul</h5>
