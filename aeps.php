@@ -46,30 +46,30 @@
                 <h6 class="card-title card2_title">Balance
                     <i class="fa fa-inr card2_icon" aria-hidden="true"></i>
                 </h6>
-                <div class="p-1 text-center card2_footer">Wallet Statement</div>
+                <div class="p-1 text-center" style="font-size: 12px;background-image: linear-gradient(to right, #0e3997 , #2570e1);color: white;width: 100%;border-radius: 0 0px 3px 3px;margin-top: 10px;">Wallet Statement</div>
             </div>
         </div>
         <div class="card card_style" style="width: 20%;">
             <div class="align-items-center card-body p-0 card_body_style" >
-                <h6 class="card-title card3_heading1">MTB1<i class="fa fa-university card3_icon1" aria-hidden="true"></i>
+                <h6 class="card-title" style="padding-left: 7px;align-items: center;display: flex;font-size: 13px;float: left;padding-right: 4px;padding-top: 11px;">MTB1<i class="fa fa-university" aria-hidden="true" style="font-size: 16px;color: #2259c1;padding-left: 6px;"></i>
                 </h6>
-                <h6 class="card-title card3_heading2">MTB1<i class="fa fa-university card3_icon2" aria-hidden="true"></i>
+                <h6 class="card-title" style="padding-left: 6px;align-items: center;display: flex;font-size: 13px;border-left: 1px solid lightgray;padding-top: 11px;">MTB1<i class="fa fa-university" aria-hidden="true" style="font-size: 16px;color: #2259c1;padding-left: 6px;"></i>
                 </h6>
-                <div class="p-1 text-center card3_footer">Move To Bank</div>
+                <div class="p-1 text-center" style="font-size: 12px;background-image: linear-gradient(to right, #0e3997 , #2570e1);color: white;width: 100%;border-radius: 0 0px 3px 3px;margin-top: 11px;">Move To Bank</div>
             </div>
         </div>
         <div class="card card_style" style="width: 20%;">
             <div class="align-items-center card-body p-0 card_body_style" >
-                <h6 class="card-title card4_heaging">0.00<i class="fa fa-gift card4_icon" aria-hidden="true"></i>
+                <h6 class="card-title" style="padding-left: 6px;align-items: center;display: flex;font-size: 15px;padding-top: 2px;">0.00<i class="fa fa-gift" aria-hidden="true" style="padding-left: 25px;font-size: 28px;color: #2259c1;"></i>
                 </h6>
-                <div class="p-1 text-center card4_footer">Redeem</div>
+                <div class="p-1 text-center" style="font-size: 12px;background-image: linear-gradient(to right, #0e3997 , #2570e1);color: white;width: 100%;border-radius: 0 0px 3px 3px;">Redeem</div>
             </div>
         </div>
         <div class="card card_style" style="width: 12%;">
             <div class="align-items-center card-body p-0 card_body_style" >
-                <h6 class="card-title card5_heading"><i class="fa fa-home card5_icon" aria-hidden="true"></i>
+                <h6 class="card-title" style="padding-left: 25px;align-items: center;display: flex;font-size: 15px;"><i class="fa fa-home" aria-hidden="true" style="/* padding-left: 25px; */font-size: 28px;color: #2259c1;"></i>
                 </h6>
-                <div class="p-1 text-center card5_footer">Home</div>
+                <div class="p-1 text-center" style="font-size: 13px;background-image: linear-gradient(to right, #0e3997 , #2570e1);color: white;width: 100%;border-radius: 0 0px 3px 3px;">Home</div>
             </div>
         </div>
     </div>
@@ -77,8 +77,8 @@
 <div class="conatiner-fluid content-inner py-0">
 
     <div class="row">
-        <div class="card aeps_card">
-            <div class="card-header aeps_card_heading">
+        <div class="card" style="background: #ebebeb;border-radius: unset;border-bottom: 1px solid lightgray;">
+            <div class="card-header" style="padding: 13px 6px;background: #ebebeb;color: black;font-size: 22px;font-weight: 600;">
                 AEPS - PlusPay Digital India
             </div>
         </div>
@@ -158,8 +158,8 @@
                                 <label class="form-check-label" for="inlineRadio8" style="font-size: 13px;">Agree T&C of ICICI Bank Limited</label>
                             </div>
                             <div class="d-flex form-check form-check-inline" style="padding-left: 0;">
-                            <button type="button" class="btn bg_gradient btn_style1">Scan</button>
-                            <button type="button" class="bg_gradient btn btn_style2">Submit Transaction</button>
+                            <button type="button" class="btn bg_gradient" style="font-size: 12px;color: white;">Scan</button>
+                            <button type="button" class="bg_gradient btn" style="font-size: 12px;color: white;margin-left: 4px;">Submit Transaction</button>
                             </div>
                             </div>
                         </div>
