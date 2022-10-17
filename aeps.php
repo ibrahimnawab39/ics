@@ -35,13 +35,19 @@
 <!-- </div>-->
 <div class="conatiner-fluid content-inner mt-n5 py-0">
     <div class="row">
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="card" style="width: 25%;">
+            <div class="align-items-center card-body d-flex p-0 pb-3 pt-3" style="width: 8rem;">
+                <img src="https://www.w3schools.com/howto/img_avatar.png" style="width: 50px;height: 50px;border-radius:50%;">
+                <h5 class="card-title" style="padding-left: 6px;padding-top: 11px;">Rahul</h5>
             </div>
-            <div class="card-footer">
-                Card footer
+        </div>
+        <div class="card" style="width: 50%;">
+            <div class="align-items-center card-body p-0 pb-3 pt-3" style="width: 8rem;">
+                <h6 class="card-title" style="padding-left: 6px;padding-top: 11px;">Balance</h6>
+                <i class="fa fa-inr" aria-hidden="true"></i>
+                <div class="card-footer p-0">
+                    Card footer
+                </div>
             </div>
         </div>
     </div>
