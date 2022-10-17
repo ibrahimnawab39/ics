@@ -74,7 +74,7 @@
         </div>
     </div>
 </div>
-<div class="conatiner-fluid content-inner mt-n5 py-0">
+<div class="conatiner-fluid content-inner py-0">
 
     <div class="row">
         <div class="card" style="background: #ebebeb;border-radius: unset;border-bottom: 1px solid lightgray;">
