@@ -38,13 +38,13 @@
         <div class="card card_style" style="width: 25%;background: none;">
             <div class="align-items-center card-body d-flex p-0" style="width: 8rem;">
                 <img src="https://www.w3schools.com/howto/img_avatar.png" class="card1_img">
-                <h5 class="card-title card1_title">Rahul</h5>
+                <h5 class="card-title" style="padding-left: 6px;padding-top: 11px;color: white;">Rahul</h5>
             </div>
         </div>
         <div class="card card_style" style="width: 20%;">
             <div class="align-items-center card-body p-0 card_body_style" >
-                <h6 class="card-title card2_title">Balance
-                    <i class="fa fa-inr card2_icon" aria-hidden="true"></i>
+                <h6 class="card-title" style="padding-left: 6px;align-items: center;display: flex;font-size: 15px;">Balance
+                    <i class="fa fa-inr" aria-hidden="true" style="padding-left: 25px;font-size: 28px;color: #2259c1;"></i>
                 </h6>
                 <div class="p-1 text-center" style="font-size: 12px;background-image: linear-gradient(to right, #0e3997 , #2570e1);color: white;width: 100%;border-radius: 0 0px 3px 3px;margin-top: 10px;">Wallet Statement</div>
             </div>
