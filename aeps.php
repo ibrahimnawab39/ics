@@ -153,6 +153,13 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
+                            <div class="d-flex form-check form-check-inline">
+                                <img src="assets/images/biometric.jpeg" alt="">
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="checkbox" name="pluspay" id="inlineRadio8" value="Mantra">
                                 <label class="form-check-label" for="inlineRadio8" style="font-size: 13px;">Agree T&C of ICICI Bank Limited</label>
