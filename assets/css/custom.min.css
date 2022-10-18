@@ -235,3 +235,30 @@ position: relative;
 transition: all 300ms ease-in-out;
 color:white;
 }
+.recharge_form label{
+    font-size: 12px;
+}
+.recharge_form input{
+    font-size: 12px;
+}
+.recharge_form select{
+    font-size: 12px;
+}
+td.re_td_head, td.re_td_data {
+    font-size: 13px;
+}
+td.re_td_head button{
+    font-size: 13px;
+}
+td.re_td_data{
+    color: black;
+}
+.table-responsive::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;
+    background-color: #f8f8f8;
+}
+.table-responsive::-webkit-scrollbar-thumb {
+    background: #ededed;
+    border-radius: 21px;
+}
