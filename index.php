@@ -281,7 +281,7 @@
                      <div class="d-flex justify-content-between align-items-center text-white">
                         <div>
                            <h5 class="font-weight-bold text-white">Axis Bank Account A</h5>
-                           <P class="mb-0">PlusPay Private Limited</P>  
+                           <P class="mb-0">SaralPe Private Limited</P>  
                         </div>
                      
                      </div>
