@@ -164,3 +164,74 @@
         justify-content: center;
     }
   }
+  .card2 {
+    background: white;
+    padding: 60px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px #C8D0D8;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .icon_div{
+    border-radius:200px;
+    height: 100px;
+    width: 100px;
+    background: #F8FAF5;
+    margin:0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .checkmark {
+    color: #9ABC66;
+    font-size: 60px;
+    line-height: 200px;
+    margin-left:-15px;
+  }
+  .pay {
+    color: #88B04B;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.pay_table {
+    width: 100%;
+    text-align: justify;
+}
+
+.pay_td {
+    width: 50%;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+}
+.btn2{
+    display: inline-block;
+font-weight: 400;
+line-height: 1.5;
+color: #8a92a6;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-color: transparent;
+border: 1px solid transparent;
+padding: 0.5rem 1.5rem;
+font-size: 1rem;
+-webkit-border-radius: 0.25rem;
+border-radius: 0.25rem;
+-webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+-o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+text-transform: capitalize;
+position: relative;
+-webkit-transition: all 300ms ease-in-out;
+-o-transition: all 300ms ease-in-out;
+transition: all 300ms ease-in-out;
+color:white;
+}

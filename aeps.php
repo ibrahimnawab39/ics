@@ -154,7 +154,7 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <div class="d-flex mt-3 form-check form-check-inline">
-                                    <img src="assets/images/biometric.jpeg" alt="">
+                                    <img src="assets/images/biometric.jpeg" style="width: 20%;" alt="">
                                 </div>
                             </div>
                         </div>
