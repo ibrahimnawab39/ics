@@ -157,7 +157,7 @@
 </div> <!-- Nav Header Component End -->
 <!--Nav End-->
 </div>
-<div class="conatiner-fluid content-inner mt-n5 py-0">
+<div class="conatiner-fluid content-inner mt-n5 py-0" style="min-height: 200px;">
     <div>
         <div class="row">
             <div class="col-sm-12 col-lg-12">
