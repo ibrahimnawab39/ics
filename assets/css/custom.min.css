@@ -381,3 +381,18 @@ td.re_td_data{
     visibility: visible;
     opacity: 1;
   }
+  .rent_form label{
+    font-size: 12px;
+}
+.rent_form input{
+    font-size: 12px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+.rent_form p{
+    font-size: 12px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 13px;
+    height: 13px;
+}
