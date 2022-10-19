@@ -122,8 +122,8 @@
                                     </label>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                            <button type="submit" class="btn btn-danger">cancel</button>
+                            <button type="submit" class="btn btn-primary rounded-pill">Submit</button>
+                            <button type="submit" class="btn btn-danger rounded-pill">cancel</button>
                         </form>
                     </div>
                 </div>
