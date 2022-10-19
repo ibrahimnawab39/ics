@@ -401,3 +401,46 @@ td.re_td_data{
     width: 13px;
     height: 13px;
 }
+.select2-container--default .select2-selection--single{
+    border: 1px solid #eee !important;
+    height: 34px !important;
+    padding-top: 2px !important;
+    
+}
+.rent_form .select2-container--default .select2-selection--single{
+    font-size: 12px !important;
+}
+.recharge_form .select2-container--default .select2-selection--single{
+    font-size: 12px !important;
+}
+.rent_form .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #9098ab !important;
+}
+.recharge_form .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #9098ab !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+    margin-top: 0 !important;
+}
+.rent_form_select2 .select2-container--default .select2-selection--single {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+.table_style th{
+    font-size: 12px;
+}
+.table_style td{
+    font-size: 12px;
+}
+.resp .dataTables_length label {
+    font-size: 12px;
+}
+.resp .dataTables_filter label {
+    font-size: 12px;
+}
+.badge-primary {
+    color: #fff;
+    background-color: #3858f9;
+    box-shadow: 0 7px 30px rgb(128 116 252 / 50%);
+}

@@ -1,4 +1,128 @@
 <?php include('header.php') ?>
+<!-- modal -->
+<div class="modal fade" id="detail_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                <button type="button" class="close border-0" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row">
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name">Report Id</label>
+                                <input type="text" id="view_id" class="form-control" placeholder="Report ID" disabled="">
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name">Transaction Date</label>
+                                <input type="text" id="view_created_at" class="form-control" placeholder="Date" disabled="">
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name">Provider</label>
+                                <input type="text" id="view_provider" class="form-control" placeholder="Provider" disabled="">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name">Number</label>
+                                <input type="text" id="view_number" class="form-control" placeholder="Number" disabled="">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name">Txnid</label>
+                                <input type="text" id="view_txnid" class="form-control" placeholder="TXNID" disabled="">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name">Opening Balance</label>
+                                <input type="text" id="view_opening_balance" class="form-control" placeholder="Opening Balance" disabled="">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name">Amount</label>
+                                <input type="text" id="view_amount" class="form-control" placeholder="Amount" disabled="">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name">Profit</label>
+                                <input type="text" id="view_profit" class="form-control" placeholder="Profit" disabled="">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name">Total Balance</label>
+                                <input type="text" id="view_total_balance" class="form-control" placeholder="Total Balance" disabled="">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name">Mode</label>
+                                <input type="text" id="view_mode" class="form-control" placeholder="Mode" disabled="">
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name">Client Id</label>
+                                <input type="text" id="view_client_id" class="form-control" placeholder="Client Id" disabled="">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name">Ip Address</label>
+                                <input type="text" id="view_ip_address" class="form-control" placeholder="Ip Address" disabled="">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name">Status</label>
+                                <input type="text" id="view_status_id" class="form-control" placeholder="Status" disabled="">
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-info">Receipt</button>
+                <button type="button" class="btn btn-info">Mobile Receipt</button>
+                <button type="button" class="btn btn-danger">Dispute</button>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Nav Header Component Start -->
 <div class="iq-navbar-header" style="height: 215px;">
     <div class="container-fluid iq-container">
@@ -39,7 +163,7 @@
             <div class="col-sm-12 col-lg-12">
                 <div class="card">
                     <div class="card-body">
-                        <form class="rent_form">
+                        <form class="rent_form rent_form_select2">
                             <div class="row">
                                 <div class="col-md-3">
                                     <div class="form-group">
@@ -57,28 +181,77 @@
                                     <div class="form-group">
                                         <label class="form-label" for="pwd">Status: *</label>
                                         <select class="form-select mb-3 shadow-none">
-                                        <option value="0" selected=""> All Status</option>
-                                        <option value="1"> Success</option>
-                                        <option value="2"> Failure</option>
-                                        <option value="3"> Pending</option>
-                                        <option value="4"> Refunded</option>
-                                        <option value="5"> Refund Fail</option>
-                                        <option value="6"> Credit</option>
-                                        <option value="7"> Debit</option>
+                                            <option value="0" selected=""> All Status</option>
+                                            <option value="1"> Success</option>
+                                            <option value="2"> Failure</option>
+                                            <option value="3"> Pending</option>
+                                            <option value="4"> Refunded</option>
+                                            <option value="5"> Refund Fail</option>
+                                            <option value="6"> Credit</option>
+                                            <option value="7"> Debit</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
-                                    <div class="form-group">
-                                    <button type="submit" class="btn btn-success">Search</button>
-                                    <button type="submit" class="btn btn-danger">Download</button>
+                                    <div class="form-group mt-4">
+                                        <button type="submit" class="btn btn-success btn-sm"><i class="fa fa-search" aria-hidden="true"></i>Search</button>
+                                        <button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-download" aria-hidden="true"></i>Download</button>
                                     </div>
                                 </div>
-
-                                
-
                             </div>
                         </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="conatiner-fluid content-inner mt-n5 py-0">
+    <div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-responsive resp">
+                            <table id="datatable" class="table table-striped table_style" data-toggle="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Date Time</th>
+                                        <th>Provider</th>
+                                        <th>Number</th>
+                                        <th>Txnid</th>
+                                        <th>Opening Balance</th>
+                                        <th>Amount</th>
+                                        <th>Profit</th>
+                                        <th>Closing Balance</th>
+                                        <th>Wallet</th>
+                                        <th>Status</th>
+                                        <th>State</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1344</td>
+                                        <td>2022-10-19 00:13:03</td>
+                                        <td>Auto Update Payment</td>
+                                        <td>7000802198</td>
+                                        <td>229245317561</td>
+                                        <td>0.00</td>
+                                        <td>1.00</td>
+                                        <td>0.00</td>
+                                        <td>1.00</td>
+                                        <td>Normal</td>
+                                        <td><span class="badge badge-primary">Credit</span></td>
+                                        <td>All Zone</td>
+                                        <td>
+                                            <button class="btn btn-danger btn-xs" data-bs-toggle="modal" data-bs-target="#detail_modal"><i class="fa fa-eye"></i> View</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
