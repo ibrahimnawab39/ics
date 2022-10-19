@@ -262,3 +262,122 @@ td.re_td_data{
     background: #ededed;
     border-radius: 21px;
 }
+._1s0u::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;
+    background-color: #f8f8f8;
+}
+._1s0u::-webkit-scrollbar-thumb {
+    background: #ededed;
+    border-radius: 21px;
+}
+/*! CSS Used from: Embedded */
+._1s0u ul,
+._1s0u ul li,
+._1s0u ul li p span._33La,
+._1s0u ul li p span.YGVM {
+  float: left;
+}
+._1s0u ul li,
+._1s0u ul li p {
+  width: 100%;
+}
+._1s0u ul li p {
+  overflow: hidden;
+}
+._1s0u ul li p span.YGVM {
+  position: absolute;
+}
+._1s0u ul li p {
+  position: relative;
+}
+._1s0u ul li,
+._1s0u ul li p span.YGVM span {
+  cursor: pointer;
+}
+._1s0u ul,
+._1s0u ul li,
+._1s0u ul li p span._33La,
+._1s0u ul li p span.YGVM {
+  float: left;
+}
+
+._1s0u {
+  margin: 15px 0;
+  overflow-y: scroll;
+  height: 326px;
+}
+._1s0u ul {
+  width: 98%;
+  margin-right: 10px;
+  list-style: none;
+    padding-left: 0;
+}
+._1s0u ul li {
+  padding: 15px;
+  border: 1px solid #ebebeb;
+  margin: 5px 0;
+  color: #999999;
+  font-size: 14px;
+}
+._1s0u ul li h5 {
+  color: #000;
+  padding-bottom: 5px;
+  font-weight: 600;
+  font-size: 15px;
+}
+._1s0u ul li p span._33La {
+  width: 85%;
+  font-size: 13px;
+}
+._1s0u ul li p span.YGVM {
+  width: 15%;
+  text-align: right;
+  vertical-align: bottom;
+  bottom: 0;
+  font-size: 12px;
+}
+._1s0u ul li p span.YGVM span {
+  color: #00baf2;
+}
+._1s0u ul li:hover {
+  background: #f3f7f8;
+}
+/* tooltip */
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
