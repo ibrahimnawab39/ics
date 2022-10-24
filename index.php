@@ -1,5 +1,4 @@
   <?php include('header.php')?>
-
          <!-- Nav Header Component Start -->
           <div class="iq-navbar-header" style="height: 215px;">
               <div class="container-fluid iq-container">
@@ -7,7 +6,7 @@
                       <div class="col-md-12">
                           <div class="flex-wrap d-flex justify-content-between align-items-center">
                               <div>
-                                  <h1>Welcome!  Krishana Cyber Cafe1</h1>
+                                  <h1>Welcome!  Ibrahim nawab Cyber Cafe1</h1>
                                   <p>At a glance summary of your account. Have fun!</p>
                               </div>
                               <div>
