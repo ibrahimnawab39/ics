@@ -6,7 +6,7 @@
                       <div class="col-md-12">
                           <div class="flex-wrap d-flex justify-content-between align-items-center">
                               <div>
-                                  <h1>Welcome!  Ibrahim nawab Cyber Cafe1</h1>
+                                  <h1>Welcome!  Ibrahim nawab  Cyber Cafe1</h1>
                                   <p>At a glance summary of your account. Have fun!</p>
                               </div>
                               <div>
