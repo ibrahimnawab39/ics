@@ -42,7 +42,7 @@
             </div>
         </div>
         <div class="card card_style" style="width: 20%;">
-            <div class="align-items-center card-body p-0 card_body_style" >
+            <div class="align-items-center card-body p-0 card_body_style">
                 <h6 class="card-title card2_title">Balance
                     <i class="fa fa-inr card2_icon" aria-hidden="true"></i>
                 </h6>
@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="card card_style" style="width: 20%;">
-            <div class="align-items-center card-body p-0 card3_body_style" >
+            <div class="align-items-center card-body p-0 card3_body_style">
                 <h6 class="card-title card3_heading1">MTB1<i class="fa fa-university card3_icon1" aria-hidden="true"></i>
                 </h6>
                 <h6 class="card-title card3_heading2">MTB1<i class="fa fa-university card3_icon2" aria-hidden="true"></i>
@@ -59,14 +59,14 @@
             </div>
         </div>
         <div class="card card_style" style="width: 20%;">
-            <div class="align-items-center card-body p-0 card_body_style" >
+            <div class="align-items-center card-body p-0 card_body_style">
                 <h6 class="card-title card4_heaging">0.00<i class="fa fa-gift card4_icon" aria-hidden="true"></i>
                 </h6>
                 <div class="p-1 text-center card4_footer">Redeem</div>
             </div>
         </div>
         <div class="card card_style" style="width: 12%;">
-            <div class="align-items-center card-body p-0 card5_body_style" >
+            <div class="align-items-center card-body p-0 card5_body_style">
                 <h6 class="card-title card5_heading"><i class="fa fa-home card5_icon" aria-hidden="true"></i>
                 </h6>
                 <div class="p-1 text-center card5_footer">Home</div>
@@ -75,7 +75,6 @@
     </div>
 </div>
 <div class="conatiner-fluid content-inner py-0">
-
     <div class="row">
         <div class="card aeps_card">
             <div class="card-header aeps_card_heading">
@@ -87,7 +86,6 @@
         <div class="col-sm-12 col-lg-7">
             <form>
                 <div class="card p-3">
-
                     <div class="card-body bg_gradient p-3 radius_4">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio1" value="Withdrawal">
@@ -101,8 +99,6 @@
                             <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio3" value="Mini Statement">
                             <label class="form-check-label form-check-label2" for="inlineRadio3">Mini Statement</label>
                         </div>
-                      
-
                     </div>
                     <div class="card-body bg_gradient p-3 mt-3 radius_4">
                         <div class="form-check form-check-inline">
@@ -117,7 +113,6 @@
                             <input class="form-check-input" type="radio" name="pluspay" id="inlineRadio7" value="Startek">
                             <label class="form-check-label form-check-label2" for="inlineRadio7">Startek</label>
                         </div>
-
                     </div>
                     <div class="row mt-3">
                         <div class="col-md-12">
@@ -145,19 +140,18 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label for="amount">Amount</label>
-                                <input type="number" class="form-control" id="amount" >
+                                <input type="number" class="form-control" id="amount">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" name="pluspay" id="inlineRadio8" value="Mantra">
-                                <label class="form-check-label" for="inlineRadio8" style="font-size: 13px;">Agree T&C of ICICI Bank Limited</label>
-                            </div>
-                            <div class="d-flex form-check form-check-inline" style="padding-left: 0;">
-                            
-                            <button type="button" class="bg_gradient btn btn_style2">Submit Transaction</button>
-                            </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="pluspay" id="inlineRadio8" value="Mantra">
+                                    <label class="form-check-label" for="inlineRadio8" style="font-size: 13px;">Agree T&C of ICICI Bank Limited</label>
+                                </div>
+                                <div class="d-flex form-check form-check-inline" style="padding-left: 0;">
+                                    <button type="button" class="bg_gradient btn btn_style2">Submit Transaction</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -165,22 +159,17 @@
             </form>
         </div>
         <div class="col-sm-12 col-lg-5">
-        <div class="card">
-            <div class="card-header d-flex justify-content-between">
-                <div class="header-title">
-                    <h4 class="card-title">Recent Transaction</h4>
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Recent Transaction</h4>
+                    </div>
                 </div>
-            </div>
-            <div class="card-body">
-                
+                <div class="card-body">
+                </div>
             </div>
         </div>
     </div>
-
-    </div>
-
-
-
 </div>
 </div>
 </div>
